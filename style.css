@@ -53,4 +53,14 @@ nav h1{
 }
 .hero{
     min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heroText{
+    flex: 1 1 30rem;
+}
+.hero img{
+    height: 80vh;
+    flex: 1 1 30rem;
 }
