@@ -19,7 +19,7 @@
           </ul>
         </nav>
       </div>
-      <section class="hero">
+      <section id="block" class="hero">
         <div class="heroText">
           <h2>Capturam momentul, creatia devine eternitate!</h2>
           <p>
@@ -35,3 +35,17 @@
     </header>
   </body>
 </html>
+<script>
+    function schimaSite(){
+        var x=document.getElementById("hero");
+        var y=document.getElementById("oppenheimer");
+            if(x.style.display=="none") {
+                x.style.display="block";
+                y.style.display="none";
+            }
+            else {
+                x.style.display="none";
+                y.style.display="block";
+            }
+    }
+</script>

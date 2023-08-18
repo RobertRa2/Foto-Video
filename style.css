@@ -64,3 +64,9 @@ nav h1{
     height: 80vh;
     flex: 1 1 30rem;
 }
+.inactive{
+    display: none;
+}
+.active{
+    display: block;
+}
