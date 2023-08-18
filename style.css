@@ -16,7 +16,7 @@ html{
     background: linear-gradient(317deg, rgb(62, 94, 96) 0%, rgba(48,77,94,1) 100%);
 }
 nav{
-    width: 98%;
+    width: 95%;
     min-height: 10vh;
     margin: auto;
     color: white;
@@ -52,21 +52,39 @@ nav h1{
     flex: 1 1 30rem;
 }
 .hero{
+    position: relative;
     min-height: 90vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    background: linear-gradient(317deg, rgb(162, 235, 241) 0%, rgba(48,77,94,1) 100%);
 }
 .heroText{
     flex: 1 1 30rem;
+    text-align: justify;
+    padding-left: 5rem;
+    width: 4rem;
+    
 }
 .hero img{
     height: 80vh;
-    flex: 1 1 30rem;
+    flex: 1 1;
 }
+<<<<<<< HEAD
 .inactive{
     display: none;
 }
 .active{
     display: block;
 }
+=======
+
+.heroText p{
+    padding-top: 10vh;
+    color: white;
+}
+.heroText h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+>>>>>>> 928e20c9fb7d5da1bedad9fe783ad5e5be061747
