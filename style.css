@@ -79,8 +79,30 @@ nav h1{
 .heroText p{
     padding-top: 10vh;
     color: white;
+    text-shadow: rgb(3, 5, 16) 1px 0 10px;
 }
 .heroText h1{
     color: rgb(255, 255, 255);
     text-align: center;
+    text-shadow: rgb(3, 5, 16) 1px 0 10px;
+}
+
+#pachete a{
+    text-shadow: rgb(3, 5, 16) 1px 0 10px;
+    transition: all 0.5s ease-in-out;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+#pachete:hover{
+    transition: all 0.5s ease-in-out  ;
+    
+    border-radius: 3rem;
+    background: rgb(25, 70, 83);
+    text-align: center;
+}
+
+#despre{
+    min-height: 100vh;
 }
