@@ -75,6 +75,12 @@ nav h1{
     height: 80vh;
     flex: 1 1;
 }
+.inactive{
+    display: none;
+}
+.active{
+    display: block;
+}
 
 .heroText p{
     padding-top: 10vh;
