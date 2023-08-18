@@ -10,11 +10,11 @@
     <header id="acasa">
       <div class="navStyle">
         <nav>
-          <h1>PhotoXPert</h1>
+          <h1 id="logo">PhotoXPert</h1>
           <ul>
             <li><a href="#acasa">Acasă</a></li>
             <li><a href="#despre">Despre Noi</a></li>
-            <li id="pachete"><a href="#pachete" >Pachete</a></li>
+            <li class="pachete" id="pachete"><a href="#pachete">Pachete</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -30,25 +30,110 @@
             prețios în timp, transformată într-o amintire veșnică.
           </p>
         </div>
-        <img src="./img/Asset 1.svg" alt="">
+        <img src="./img/Asset 1.svg" alt="" />
       </section>
     </header>
     <section id="despre">
-      
+      <div class="imgs">
+        <img src="./img/pexels-oliver-sjöström-1122411.jpg" alt="" />
+        <img src="./img/pexels-pixabay-50601.jpg" alt="" />
+        <img src="./img/pexels-tuấn-kiệt-jr-1549974.jpg" alt="" />
+      </div>
+
+      <div class="despreText">
+        <h1>Despre PhotoXPert</h1>
+        <p>
+          La PhotoXPert, credem că fiecare imagine spune o poveste și fiecare
+          cadru capturează o emoție unică. Suntem un studio foto dedicat să
+          transformăm momentele în amintiri veșnice prin intermediul artei
+          fotografice. Cu o experiență îndelungată în spatele nostru și o echipă
+          talentată de fotografi pasionați, ne-am propus să aducem la lumină
+          frumusețea și autenticitatea fiecărui moment.
+        </p>
+        <p>
+          Misiunea noastră este să surprindem esența și naturalețea în fiecare
+          imagine. Indiferent dacă este vorba despre o ședință foto de familie,
+          un eveniment special sau o sesiune de portrete artistice, ne străduim
+          să creăm fotografii care să vorbească în timp și să păstreze emoția
+          intactă.
+        </p>
+        <p>
+          Echipa noastră este formată din profesioniști dedicați, cu o
+          înțelegere profundă a tehnicilor fotografice și a jocului subtil de
+          lumină și culoare. Suntem mereu în căutarea unghiurilor inedite și a
+          detaliilor care fac diferența în fiecare imagine. Fiecare proiect
+          reprezintă pentru noi o oportunitate de a crea ceva unic și memorabil.
+        </p>
+      </div>
     </section>
+    <section id="pachete">
+      <form>
+        <h1>Pachet Standard</h1>
+        <ul>
+            <li><p>O ședință foto de 1 ore</p></li>
+            <li><p>20 fotografii prelucrate și editate</p></li>
+            <li><p>Galerie online pentru vizualizare și descărcare</p></li>
+            <li><p>150 lei</p></li>
+        </ul>
+        
+    </form>
+    <form>
+        <h1>Pachet Nuntă Completa</h1>
+        <ol>
+            <li><p>Pregătiri, ceremonie, petrecere - acoperire pe întreaga durată a evenimentului</p></li>
+            <li><p>500 fotografii prelucrate și editate</p></li>   
+            <li><p>Galerie online pentru vizualizare și descărcare</p></li>
+            <li><p>Album foto de lux cu design personalizat</p></li>
+            <li><p>Ședință foto înainte sau după nunta oficială</p></li>
+            <li><p>Video cu intrega nunta surprinzand cele mai importante momente</p></li>
+            <li><p>1150 lei</p></li>     
+        </ol>
+    </form>
+    <form>
+        <h1>Pachet Lifestyle</h1>
+        <ol>
+            <li><p>Ședință foto în locații diferite, pe parcursul a 2 ore</p></li>
+            <li><p>30 fotografii prelucrate și editate</p></li>
+            <li><p>Galerie online pentru vizualizare și descărcare</p></li>
+            <li><p>Fotografii în stil candid, capturând momente autentice</p></li>
+            <li><p>350 lei</p></li>
+        </ol>
+        
+    </form>
+    </section>
+
+    <section id="contact">
+      <div class="contact">
+        <h1>Contacteaza-ne:</h1>
+        <p>Numar de telefon: <b>0726976532</b></p>
+        <p>Email: <b>contact@photoxert.com</b></p>
+        <p>Adresa: <b>UBC 0, Piața Consiliul Europei 2, Timișoara</b></p>
+        <img src="./img/WhatsApp Image 2023-08-18 at 18.32.28.jpg" alt="">
+      </div>
+      <h2>Nume:</h2>
+          <input type="text" name="username" id="username">
+          <h2>Email:</h2>
+          <input type="email" name="email" id="email">
+          <h2>Telefon:</h2>
+          <input type="number" name="phone" id="number">
+        </form>
+        <button>Trimite</button>
+      
+          
+    </section>
+   
   </body>
 </html>
 <script>
-    function schimaSite(){
-        var x=document.getElementById("hero");
-        var y=document.getElementById("oppenheimer");
-            if(x.style.display=="none") {
-                x.style.display="block";
-                y.style.display="none";
-            }
-            else {
-                x.style.display="none";
-                y.style.display="block";
-            }
+  function schimaSite() {
+    var x = document.getElementById("hero");
+    var y = document.getElementById("oppenheimer");
+    if (x.style.display == "none") {
+      x.style.display = "block";
+      y.style.display = "none";
+    } else {
+      x.style.display = "none";
+      y.style.display = "block";
     }
+  }
 </script>
